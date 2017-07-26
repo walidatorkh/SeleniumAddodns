@@ -1,0 +1,29 @@
+2017-19-23 00:19:34.026 INFO  SanityTC -Begin suite 1
+2017-19-23 00:19:34.051 INFO  SanityTC -Start test Case 1
+2017-19-23 00:19:38.980 INFO  SanityTC -Finish test  1
+2017-19-23 00:19:38.985 INFO  SanityTC -Start test Case 2
+2017-19-23 00:19:39.401 INFO  SanityTC -Finish test  2
+2017-20-23 00:20:35.470 INFO  SanityTC -Begin suite 1
+2017-20-23 00:20:35.496 INFO  SanityTC -Start test Case 1
+2017-20-23 00:20:39.672 INFO  SanityTC -Finish test  1
+2017-20-23 00:20:39.679 INFO  SanityTC -Start test Case 2
+2017-20-23 00:20:40.104 INFO  SanityTC -Finish test  2
+2017-20-23 00:20:40.697 INFO  SanityTC -Finish suite 1
+2017-21-23 00:21:33.383 INFO  SanityTC -Begin suite 1
+2017-21-23 00:21:33.404 INFO  SanityTC -Start test Case 1
+2017-21-23 00:21:38.148 INFO  SanityTC -Finish test  1
+2017-21-23 00:21:38.154 INFO  SanityTC -Start test Case 2
+2017-21-23 00:21:38.645 INFO  SanityTC -Finish test  2
+2017-21-23 00:21:39.192 INFO  SanityTC -Finish suite 1
+2017-07-23 13:07:27.922 INFO  SanityTC -Begin suite 1
+2017-07-23 13:07:27.942 INFO  SanityTC -Start test Case 1
+2017-07-23 13:07:32.654 INFO  SanityTC -Finish test  1
+2017-08-23 13:08:44.871 INFO  RegressionTC -Begin suite 1
+2017-08-23 13:08:44.873 INFO  RegressionTC -Start test Case 1
+2017-09-23 13:09:02.371 INFO  RegressionTC -Finish test  1
+2017-09-23 13:09:02.375 INFO  SanityTC -Start test Case 2
+2017-09-23 13:09:02.838 INFO  SanityTC -Finish test  2
+2017-09-23 13:09:03.394 INFO  SanityTC -Finish suite 1
+2017-09-23 13:09:08.108 INFO  RegressionTC -Start test Case 2
+2017-09-23 13:09:08.412 INFO  RegressionTC -Finish test  2
+2017-09-23 13:09:13.343 INFO  RegressionTC -Finish suite 1

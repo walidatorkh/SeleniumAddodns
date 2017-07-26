@@ -1,0 +1,2 @@
+userName=user1
+pass=pass1

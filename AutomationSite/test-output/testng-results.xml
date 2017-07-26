@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="6" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="54494" started-at="2017-02-08T18:27:38Z" finished-at="2017-02-08T18:28:32Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="54494" started-at="2017-02-08T18:27:38Z" finished-at="2017-02-08T18:28:32Z">
+      <class name="com.automation.tests.Regression">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.automation.tests.Regression@61832929]" name="setup" is-config="true" duration-ms="6227" started-at="2017-02-08T20:27:46Z" finished-at="2017-02-08T20:27:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="searchSite(java.lang.String, java.lang.String)[pri:1, instance:com.automation.tests.Regression@61832929]" name="searchSite" duration-ms="8605" started-at="2017-02-08T20:27:53Z" data-provider="getDataFromExcel_AdvancedSearch" finished-at="2017-02-08T20:28:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[eclipse]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchSite -->
+        <test-method status="PASS" signature="searchSite(java.lang.String, java.lang.String)[pri:1, instance:com.automation.tests.Regression@61832929]" name="searchSite" duration-ms="8193" started-at="2017-02-08T20:28:02Z" data-provider="getDataFromExcel_AdvancedSearch" finished-at="2017-02-08T20:28:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Java]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchSite -->
+        <test-method status="PASS" signature="searchSite(java.lang.String, java.lang.String)[pri:1, instance:com.automation.tests.Regression@61832929]" name="searchSite" duration-ms="7800" started-at="2017-02-08T20:28:10Z" data-provider="getDataFromExcel_AdvancedSearch" finished-at="2017-02-08T20:28:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Selenium]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchSite -->
+        <test-method status="FAIL" signature="searchSite(java.lang.String, java.lang.String)[pri:1, instance:com.automation.tests.Regression@61832929]" name="searchSite" duration-ms="5587" started-at="2017-02-08T20:28:18Z" data-provider="getDataFromExcel_AdvancedSearch" finished-at="2017-02-08T20:28:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Messi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Search was not found expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Search was not found expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.automation.pageObjects.Homepage.searchSite(Homepage.java:40)
+	at com.automation.tests.Regression.searchSite(Regression.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchSite -->
+        <test-method status="PASS" signature="searchSite(java.lang.String, java.lang.String)[pri:1, instance:com.automation.tests.Regression@61832929]" name="searchSite" duration-ms="8107" started-at="2017-02-08T20:28:23Z" data-provider="getDataFromExcel_AdvancedSearch" finished-at="2017-02-08T20:28:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[QA]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchSite -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.automation.tests.Regression@61832929]" name="tearDown" is-config="true" duration-ms="823" started-at="2017-02-08T20:28:32Z" finished-at="2017-02-08T20:28:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automation.tests.Regression -->
+      <class name="com.automation.tests.Sanity">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.automation.tests.Sanity@5b275dab]" name="setup" is-config="true" duration-ms="7122" started-at="2017-02-08T20:27:38Z" finished-at="2017-02-08T20:27:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="searchTextInSite()[pri:1, instance:com.automation.tests.Sanity@5b275dab]" name="searchTextInSite" duration-ms="115" started-at="2017-02-08T20:27:45Z" finished-at="2017-02-08T20:27:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTextInSite -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.automation.tests.Sanity@5b275dab]" name="tearDown" is-config="true" duration-ms="889" started-at="2017-02-08T20:27:45Z" finished-at="2017-02-08T20:27:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.automation.tests.Sanity -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
